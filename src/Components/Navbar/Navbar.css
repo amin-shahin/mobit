@@ -1,0 +1,36 @@
+.animation-for-hover {
+  position: relative;
+  cursor:pointer
+}
+.animation-for-hover::after {
+  transition: all 0.3s;
+  content: "";
+  width: 0%;
+  height: 15%;
+  position: absolute;
+  margin-bottom: -25px;
+}
+.animation-for-hover.categories::after {
+  background: rgb(59, 130, 246);
+}
+.animation-for-hover.discounts::after {
+  background: rgb(239, 68, 68);
+}
+.animation-for-hover.articles::after {
+  background: rgb(34, 197, 94);
+}
+.animation-for-hover.prices::after {
+  background: rgb(139, 92, 246);
+}
+.animation-for-hover:hover::after {
+  width: 100%;
+}
+
+a.nav:hover {
+    /* color: var(--dark-color); */
+  
+  }
+
+  .shadow-navbar{
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  }

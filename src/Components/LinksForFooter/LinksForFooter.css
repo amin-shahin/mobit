@@ -1,0 +1,9 @@
+a:hover {
+  color: #1e83f0 ;
+  }
+
+  @media screen and (min-width:450px) {
+    .links{
+      text-align: right !important; 
+    }
+  }

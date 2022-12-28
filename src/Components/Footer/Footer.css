@@ -1,0 +1,33 @@
+.trust-symbol{
+    border-bottom: 1px solid #c6bfbf;
+}
+
+.time-working{
+    border-right: 2px solid #cdc4c4;
+}
+.chevrone{
+    font-size: 16px;
+
+    transform: rotate(180deg);
+}
+.to-top:hover .chevrone{
+    transition: all;
+    animation:.8s to-top infinite forwards;
+    color: deeppink;
+}
+
+@keyframes to-top {
+    0%{transform:rotate(180deg) translateY(2px) ;}
+    25%{transform:rotate(180deg) translateY(1.5px) ;}
+    50%{transform:rotate(180deg) translateY(0px) ;}
+    70%{transform:rotate(180deg) translateY(-1.5px) ;}
+    90%{transform:rotate(180deg) translateY(-2px) ;}
+}
+
+SlideSwiperComponent{
+display: block;
+}
+
+LinksFooterSlider{
+    display: none;
+}
